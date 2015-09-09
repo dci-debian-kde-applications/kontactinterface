@@ -1,3 +1,9 @@
+kontactinterface (15.08.0-1~) UNRELEASED; urgency=medium
+
+  * Initial Debian release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 23:03:07 +0200
+
 kontactinterface (15.08.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
