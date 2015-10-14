@@ -2,6 +2,8 @@ kontactinterface (15.08.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * Vivid backport
   * New upstream release
+  * Fix not-binnmuable-any-depends-all lintian error
+    by using (= ${source:Version}) as suggested by lintian. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 09 Oct 2015 14:32:10 -0700
 
