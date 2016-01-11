@@ -1,6 +1,10 @@
 kontactinterface (15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Clive Johnston ]
   * New upstream release
+
+  [ Scarlett Clark ]
+  * No change, trigger rebuild. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:09:11 +0000
 
