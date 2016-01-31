@@ -52,15 +52,3 @@ Depends: libkf5kontactinterface-data (= ${source:Version}),
 Description: Kontact interface library
  This library provides the glue necessary for application "Parts" to be
  embedded as a Kontact component (or plugin).
-
-Package: libkf5kontactinterface-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Depends: libkf5kontactinterface5 (= ${binary:Version}), ${misc:Depends}
-Description: Kontact interface library - debug symbols
- This library provides the glue necessary for application "Parts" to be
- embedded as a Kontact component (or plugin).
- .
- This package contains the debug symbols.
