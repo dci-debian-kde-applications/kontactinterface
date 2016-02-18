@@ -1,7 +1,8 @@
-kontactinterface (15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+kontactinterface (15.12.1-1ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Debian merge: No remaining changes. 
+  * Fix changelog entry version. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 02 Feb 2016 09:16:31 -0800
 
