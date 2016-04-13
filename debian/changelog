@@ -1,3 +1,11 @@
+kontactinterface (15.12.1-2~1.gbpd27524) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @d275248b0099e556904000b7d2fab45db8d07998 **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:26:38 +0200
+
 kontactinterface (15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
