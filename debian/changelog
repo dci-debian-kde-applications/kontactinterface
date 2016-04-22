@@ -1,12 +1,21 @@
-kontactinterface (16.04.0-1~1.gbpd0740e) UNRELEASED; urgency=medium
+kontactinterface (16.04.0-1~2.gbp7224c2) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @7224c253acafeb77a43546d9039c99ce487f923d **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @d0740ec1d421dcdc1b8a6bd2eed6ff2d576ea99f **
 
   * Bump Standards-Version to 3.9.8
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 01:26:11 +0200
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update install files
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 22 Apr 2016 09:29:41 +0200
 
 kontactinterface (15.12.1-1) experimental; urgency=medium
 
