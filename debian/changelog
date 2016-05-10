@@ -1,6 +1,6 @@
-kontactinterface (16.04.0-1~2.gbp7224c2) UNRELEASED; urgency=medium
+kontactinterface (16.04.1-1~1.gbpf8f3f9) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @7224c253acafeb77a43546d9039c99ce487f923d **
+  ** SNAPSHOT build @f8f3f93bd79bdb6d41b0db05040efddcd44185ac **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @d0740ec1d421dcdc1b8a6bd2eed6ff2d576ea99f **
@@ -14,8 +14,9 @@ kontactinterface (16.04.0-1~2.gbp7224c2) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update install files
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 22 Apr 2016 09:29:41 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 01:26:13 +0200
 
 kontactinterface (15.12.1-1) experimental; urgency=medium
 
