@@ -1,10 +1,6 @@
-kontactinterface (16.04.1-1~1.gbpf8f3f9) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @f8f3f93bd79bdb6d41b0db05040efddcd44185ac **
+kontactinterface (16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @d0740ec1d421dcdc1b8a6bd2eed6ff2d576ea99f **
-
   * Bump Standards-Version to 3.9.8
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
@@ -14,9 +10,8 @@ kontactinterface (16.04.1-1~1.gbpf8f3f9) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update install files
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 01:26:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 26 May 2016 00:53:06 +0200
 
 kontactinterface (15.12.1-1) experimental; urgency=medium
 
