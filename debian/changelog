@@ -1,3 +1,11 @@
+kontactinterface (16.04.3-1~1.gbpb0668a) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @b0668ab0c5e34b37349cd75400d1f831112aa3d4 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 13 Jul 2016 01:26:10 +0200
+
 kontactinterface (16.04.2-1) unstable; urgency=medium
 
   * New upstream release.
