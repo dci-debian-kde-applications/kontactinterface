@@ -1,6 +1,6 @@
-kontactinterface (16.08.0-1~1.gbp134203) UNRELEASED; urgency=medium
+kontactinterface (16.08.1-1~1.gbp23bf13) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @134203453b0026cba5ef2506f31c07a40576bf20 **
+  ** SNAPSHOT build @23bf13a84a09ce360efdd3c624534d6dd52eaf71 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @b0668ab0c5e34b37349cd75400d1f831112aa3d4 **
@@ -9,8 +9,9 @@ kontactinterface (16.08.0-1~1.gbp134203) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 07:26:11 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 01:26:33 +0200
 
 kontactinterface (16.04.2-1) unstable; urgency=medium
 
