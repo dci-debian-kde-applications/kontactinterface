@@ -13,25 +13,11 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5windowsystem-dev (>= 5.23.0~),
                libkf5xmlgui-dev (>= 5.23.0~),
                libx11-dev,
-               pkg-kde-tools (>> 0.15.15)
+               pkg-kde-tools (>> 0.15.15),
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/kde/pim/kontactinterface
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kontactinterface.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kontactinterface.git
-
-Package: libkf5kontactinterface-dev
-Section: libdevel
-Architecture: any
-Multi-Arch: foreign
-Depends: libkf5kdelibs4support-dev,
-         libkf5kontactinterface5 (= ${binary:Version}),
-         libkf5parts-dev (>= 5.23.0~),
-         ${misc:Depends}
-Description: Kontact interface library - development files
- This library provides the glue necessary for application "Parts" to be
- embedded as a Kontact component (or plugin).
- .
- This package contains the development files.
 
 Package: libkf5kontactinterface-data
 Architecture: all
@@ -43,12 +29,26 @@ Description: Kontact interface library - data files
  .
  This package contains shared data files.
 
+Package: libkf5kontactinterface-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: foreign
+Depends: libkf5kdelibs4support-dev,
+         libkf5kontactinterface5 (= ${binary:Version}),
+         libkf5parts-dev (>= 5.23.0~),
+         ${misc:Depends},
+Description: Kontact interface library - development files
+ This library provides the glue necessary for application "Parts" to be
+ embedded as a Kontact component (or plugin).
+ .
+ This package contains the development files.
+
 Package: libkf5kontactinterface5
 Architecture: any
 Multi-Arch: same
 Depends: libkf5kontactinterface-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Breaks: ${kde-l10n:all}
 Replaces: ${kde-l10n:all}
 Description: Kontact interface library
