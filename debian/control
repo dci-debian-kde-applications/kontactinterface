@@ -49,8 +49,12 @@ Multi-Arch: same
 Depends: libkf5kontactinterface-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
-Breaks: ${kde-l10n:all}
-Replaces: ${kde-l10n:all}
+Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
+        kde-l10n-eo (<< 4:17.03.90-0~),
+        ${kde-l10n:all},
+Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
+          kde-l10n-eo (<< 4:17.03.90-0~),
+          ${kde-l10n:all},
 Description: Kontact interface library
  This library provides the glue necessary for application "Parts" to be
  embedded as a Kontact component (or plugin).
