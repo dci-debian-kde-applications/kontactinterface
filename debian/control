@@ -32,7 +32,7 @@ Description: Kontact interface library - data files
 Package: libkf5kontactinterface-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
+Multi-Arch: same
 Depends: libkf5kdelibs4support-dev,
          libkf5kontactinterface5 (= ${binary:Version}),
          libkf5parts-dev (>= 5.35.0~),
